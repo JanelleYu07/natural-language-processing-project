@@ -59,7 +59,6 @@ import java.util.Scanner;
      * @return The frequency of the keyword in the reviews.
      */
     public int countKeyword(String keyword) {
-      words = textProcessor.textToWords(); 
       int count = 0;
       ArrayList<String> reviews = textProcessor.getTextList(); 
 
