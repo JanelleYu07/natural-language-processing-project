@@ -47,9 +47,6 @@ import java.util.ArrayList;
           }
         }
       }
-      if (!word.equals("")) {
-        wordList.add(word);
-      }
     }
     return wordList;
   }
